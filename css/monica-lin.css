@@ -876,6 +876,7 @@
 
 .image-17 {
   width: 1000px;
+  min-width: 70%;
 }
 
 .slider-2 {
@@ -1490,7 +1491,9 @@
 }
 
 .div-block-75 {
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -1576,6 +1579,28 @@
   font-family: Inter, sans-serif;
   font-size: 13.5px;
   font-weight: 400;
+}
+
+.link-26 {
+  color: #333;
+  text-decoration: none;
+}
+
+.link-26:hover {
+  color: hsla(0, 0%, 52.2%, 0.8);
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.link-27 {
+  color: #333;
+  text-decoration: none;
+}
+
+.link-27:hover {
+  color: hsla(0, 0%, 52.2%, 0.8);
+  font-style: italic;
+  text-decoration: line-through;
 }
 
 @media screen and (max-width: 991px) {
