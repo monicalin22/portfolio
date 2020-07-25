@@ -2,6 +2,7 @@
 
 Hi, my name is Monica and I am currently a rising senior at Columbia University.
 I am interested in Product Design, so I thought that it would be good to get some practice in with front-end development.
-As such, I coded my website. (I wireframed & prototyped my website in Figma.)
+As such, I coded my website. (I wireframed & prototyped my website in Figma and Webflow. I also tried to use
+Twitter Bootstrap for responsiveness.)
 
 Thank you for visiting!
