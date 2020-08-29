@@ -156,7 +156,8 @@
 }
 
 .navigation-item {
-  padding: 5px 15px;
+  margin-left: 30px;
+  padding: 5px 0px;
   background-color: transparent;
   opacity: 1;
   font-family: Inter, sans-serif;
@@ -169,8 +170,8 @@
 }
 
 .navigation-item:hover {
-  opacity: 0.9;
-  color: #a6b1e1;
+  opacity: 1;
+  color:#fff;
 }
 
 .navigation-item:active {
@@ -2228,7 +2229,7 @@
   margin-top: 30px;
   margin-bottom: 0px;
   font-family: 'Sf ui text', sans-serif;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 38px;
   font-weight: 400;
 }
