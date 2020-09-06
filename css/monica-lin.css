@@ -2050,6 +2050,7 @@
 }
 
 .div-block-93 {
+  position: relative;
   margin-right: -120px;
   margin-left: -120px;
 }
@@ -2065,6 +2066,10 @@
   font-size: 44px;
   font-weight: 700;
   white-space: normal;
+}
+
+.heading-31.title {
+  margin-top: 0px;
 }
 
 .text-block-5 {
@@ -2412,7 +2417,7 @@
 }
 
 .div-block-103 {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-right: -120px;
   margin-left: -120px;
 }
