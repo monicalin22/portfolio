@@ -537,6 +537,10 @@
   margin-left: -120px;
 }
 
+.section-5 {
+  margin-bottom: 140px;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-items {
     background-color: #22262f;
@@ -604,3 +608,4 @@
     flex: 0 0 auto;
   }
 }
+
