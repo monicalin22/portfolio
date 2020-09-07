@@ -206,6 +206,10 @@
   margin-bottom: 40px;
 }
 
+.paragraph-2.beginning {
+  width: 68%;
+}
+
 .div-block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -514,6 +518,7 @@
 }
 
 .end.footer {
+  margin-top: 40px;
   background-color: #1f1f1f;
 }
 
@@ -538,7 +543,77 @@
 }
 
 .section-5 {
-  margin-bottom: 140px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  margin-top: 60px;
+  background-color: #fff;
+}
+
+.container-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.nav-menu {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  text-align: center;
+}
+
+.nav-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #d1d1d1;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.nav-link.footernav {
+  font-family: synthese, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav-link.footernav:hover {
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.nav-link-3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: synthese, sans-serif;
+  color: #d1d1d1;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav-link-3:hover {
+  color: #000;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.nav-link-3.w--current {
+  color: #000;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
@@ -576,6 +651,16 @@
   .navigation-wrap {
     margin-right: 0px;
   }
+  .container-7 {
+    background-color: #fff;
+  }
+  .nav-menu {
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  .nav-link.footernav {
+    background-color: #fff;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -587,6 +672,9 @@
   }
   .container-2 {
     height: 180px;
+  }
+  .nav-menu {
+    margin-bottom: 10px;
   }
 }
 
@@ -606,6 +694,21 @@
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+  }
+  .nav-menu {
+    margin-bottom: 0px;
+  }
+  .nav-link.footernav {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .nav-link-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .nav-link-3.w--current {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
