@@ -1699,6 +1699,16 @@
   font-weight: 900;
 }
 
+.ft-work-heading {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: -120px;
+  font-family: synthese, sans-serif;
+  color: #000;
+  font-size: 30px;
+  font-weight: 900;
+}
+
 .heading-32.aboutpage {
   margin-top: 0px;
   margin-bottom: 50px;
