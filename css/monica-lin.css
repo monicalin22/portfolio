@@ -1,12 +1,3 @@
-.line {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.line2 {
-  margin-top: 15px;
-}
-
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -1416,11 +1407,7 @@
 }
 
 .div-block-82 {
-  margin-top: 50px;
-}
-
-.juv {
-  margin-bottom: 20px;
+  margin-top: 15px;
 }
 
 .columns-9 {
@@ -1689,24 +1676,10 @@
   align-items: flex-end;
 }
 
-.nursingce-banner {
-  margin-top: 50px;
-}
-
 .heading-32 {
   margin-top: 60px;
   margin-bottom: 60px;
   margin-left: 0px;
-  font-family: synthese, sans-serif;
-  color: #000;
-  font-size: 30px;
-  font-weight: 900;
-}
-
-.ft-work-heading {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  margin-left: -120px;
   font-family: synthese, sans-serif;
   color: #000;
   font-size: 30px;
@@ -1999,7 +1972,7 @@
 }
 
 .div-block-103 {
-  margin-top: 50px;
+  margin-top: 80px;
   margin-right: -120px;
   margin-left: -120px;
 }
@@ -2014,7 +1987,7 @@
 }
 
 .mydescription {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 100px;
 }
 
@@ -2163,8 +2136,8 @@
 }
 
 .marketing {
-  margin-top: 50px;
-  margin-bottom: 60px;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
 .div-block-108 {
@@ -2197,7 +2170,7 @@
 }
 
 .writing {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .animated-images {
@@ -2212,6 +2185,10 @@
 
 .container-26 {
   margin-top: 40px;
+}
+
+.text-span-14 {
+  color: #a6b1e1;
 }
 
 @media screen and (max-width: 991px) {
@@ -3155,4 +3132,222 @@
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraBoldItalic.otf') format('opentype'), url('../fonts/Inter-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraLightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Bold.otf') format('opentype'), url('../fonts/Inter-ExtraBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Inter v';
+  src: url('../fonts/Inter-V.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-HeavyItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-Heavy.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-SemiboldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-Ultrathin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sf ui text';
+  src: url('../fonts/SF-UI-Text-UltrathinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: auto;
 }
