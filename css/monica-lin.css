@@ -1725,17 +1725,16 @@
   margin-bottom: 40px;
 }
 
+.featured-work-space {
+  margin-left: 0;
+}
+
 .heading-33 {
   margin-top: 0px;
   font-family: utopia-std, sans-serif;
   color: #000;
   font-size: 34px;
   text-decoration: none;
-}
-
-.heading-33.about-space {
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .text-span-11 {
