@@ -1925,6 +1925,11 @@
   text-decoration: none;
 }
 
+.juv {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
 .footerlink {
   display: -webkit-box;
   display: -webkit-flex;
