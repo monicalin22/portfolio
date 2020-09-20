@@ -1,3 +1,9 @@
+.section-7 {
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .bluegradient {
 	background: linear-gradient(-45deg, #D9E7FD, #EAF0FD, #F2F3F4, #ffffff);
 	background-size: 400% 400%;
@@ -261,6 +267,11 @@
 }
 
 .paragraph-2.challenges {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.paragraph-2.conclusion {
   width: 100%;
   margin-top: 40px;
 }
@@ -733,8 +744,9 @@
 
 .section-7 {
   height: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 140px;
+  margin-bottom: 140px;
+  background-color: hsla(0, 0%, 96%, 0);
 }
 
 .body {
@@ -764,9 +776,41 @@
   max-width: 128%;
 }
 
+.div-block-105 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 460px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.column-34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-items {
-    background-color: #22262f;
+    background-color: rgba(255, 255, 255, 0);
   }
   .navigation {
     padding: 25px 30px;
@@ -859,4 +903,3 @@
     padding-left: 0px;
   }
 }
-
