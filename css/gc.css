@@ -119,12 +119,12 @@
   margin-top: 0px;
   font-family: synthese, sans-serif;
   color: #000;
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 900;
 }
 
 .paragraph {
-  margin-left: 20px;
+  margin-left: 0px;
   font-family: synthese, sans-serif;
   font-size: 16px;
   line-height: 28px;
@@ -141,9 +141,22 @@
   margin-left: 0px;
 }
 
+.paragraph.when {
+  margin-right: 20px;
+  margin-left: 0px;
+}
+
+.paragraph._1 {
+  margin-right: 20px;
+}
+
+.paragraph._3 {
+  padding-right: 20px;
+}
+
 .columns {
   margin-top: 40px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .subtext {
@@ -162,7 +175,7 @@
   width: 68%;
   font-family: utopia-std, sans-serif;
   color: #000;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 600;
 }
 
@@ -178,6 +191,10 @@
   margin-top: 0px;
 }
 
+.heading-2.features {
+  margin-top: 0px;
+}
+
 .paragraph-2 {
   width: 80%;
   font-family: synthese, sans-serif;
@@ -186,14 +203,9 @@
   font-weight: 200;
 }
 
-.paragraph-2.list {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
 .paragraph-2.description {
   width: auto;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .paragraph-2.second {
@@ -207,7 +219,19 @@
 }
 
 .paragraph-2.beginning {
+  position: static;
   width: 68%;
+  margin-bottom: 0px;
+}
+
+.paragraph-2.sol {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.paragraph-2.challenges {
+  width: 100%;
+  margin-top: 40px;
 }
 
 .div-block {
@@ -216,6 +240,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 80px;
+  margin-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -233,18 +258,18 @@
 
 .section {
   position: relative;
-  height: 100%;
+  height: auto;
   margin-top: 60px;
 }
 
 .screenshot {
-  position: absolute;
+  position: static;
   left: auto;
   top: 0%;
   right: 0%;
   bottom: 0%;
   display: block;
-  width: 80%;
+  width: 90%;
   margin-right: 30px;
   border-style: solid;
   border-width: 1px;
@@ -255,12 +280,13 @@
 }
 
 .screenshot2 {
-  position: absolute;
+  position: static;
   left: 0%;
   top: 0%;
   right: auto;
   bottom: 0%;
-  width: 80%;
+  display: block;
+  width: 90%;
   margin-left: 30px;
   border-style: solid;
   border-width: 1px;
@@ -275,13 +301,14 @@
 }
 
 .section-2 {
-  margin-top: 360px;
+  margin-top: 140px;
 }
 
 .problem {
-  margin-top: 100px;
-  margin-bottom: 40px;
+  margin-top: 0px;
+  margin-bottom: 80px;
   font-family: utopia-std, sans-serif;
+  color: #000;
   font-size: 46px;
   line-height: 66px;
   font-weight: 600;
@@ -289,27 +316,24 @@
 
 .section-3 {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .image-70 {
   margin-top: 20px;
 }
 
-.list {
-  width: 68%;
-}
-
 .section-4 {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .columns-2 {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .heading-3 {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 30px;
   font-family: synthese, sans-serif;
   color: #000;
   font-size: 24px;
@@ -331,6 +355,7 @@
   border-width: 1px;
   border-color: #e7e7e7;
   border-radius: 8px;
+  box-shadow: 13px 13px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .div-block-2 {
@@ -342,7 +367,7 @@
 }
 
 .container {
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 .column-2 {
@@ -355,23 +380,12 @@
   padding-left: 20px;
 }
 
-.column-4 {
-  margin-top: 32px;
-  padding-right: 20px;
-  padding-left: 40px;
-}
-
-.column-5 {
-  margin-top: 32px;
-  padding-right: 40px;
-  padding-left: 20px;
-}
-
 .image-72 {
   border-style: solid;
   border-width: 1px;
   border-color: #e7e7e7;
   border-radius: 8px;
+  box-shadow: 13px 13px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .image-73 {
@@ -385,22 +399,8 @@
   margin-top: 40px;
 }
 
-.image-74 {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #eee;
-  border-radius: 8px;
-}
-
-.image-75 {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #eee;
-  border-radius: 8px;
-}
-
 .columns-4 {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .div-block-4 {
@@ -409,10 +409,11 @@
 
 .column-6 {
   margin-top: 0px;
+  padding-left: 0px;
 }
 
 .column-7 {
-  margin-top: 220px;
+  margin-top: 0px;
   padding-right: 40px;
 }
 
@@ -543,6 +544,7 @@
 }
 
 .section-5 {
+  margin-top: 100px;
   margin-bottom: 40px;
 }
 
@@ -614,6 +616,122 @@
 .nav-link-3.w--current {
   color: #000;
   font-weight: 700;
+}
+
+.section-6 {
+  margin-top: 10px;
+}
+
+.columns-6 {
+  margin-top: 0px;
+}
+
+.div-block-101 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.div-block-102 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.div-block-103 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-81 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e7e7e7;
+  border-radius: 8px;
+  box-shadow: 13px 13px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.text-span {
+  font-weight: 400;
+}
+
+.text-span-2 {
+  font-weight: 400;
+}
+
+.text-span-3 {
+  font-weight: 400;
+}
+
+.text-span-4 {
+  font-weight: 400;
+}
+
+.text-span-5 {
+  font-weight: 400;
+}
+
+.text-span-6 {
+  font-weight: 400;
+}
+
+.text-span-7 {
+  font-weight: 400;
+}
+
+.section-7 {
+  height: auto;
+  margin-top: 140px;
+  margin-bottom: 140px;
+  background-color: hsla(0, 0%, 96%, 0);
+}
+
+.body {
+  background-color: transparent;
+}
+
+.text-block-8 {
+  margin-top: 8px;
+  font-family: synthese, sans-serif;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.div-block-104 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.image-82 {
+  max-width: 128%;
 }
 
 @media screen and (max-width: 991px) {
