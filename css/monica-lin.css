@@ -850,6 +850,8 @@
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
+  margin-top: 140px;
+  margin-bottom: 120px;
 }
 
 .div-block-120 {
@@ -885,6 +887,14 @@
   color: #000;
   font-size: 30px;
   font-weight: 600;
+}
+
+.spaceP {
+  margin-bottom: 40px;
+}
+
+.spacePP {
+  margin-bottom: 20px;
 }
 
 .div-block-122 {
@@ -993,7 +1003,7 @@
 }
 
 .s9 {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .image-89 {
@@ -2179,7 +2189,7 @@
 }
 
 .div-block-102 {
-  margin-bottom: 10px;
+  margin-bottom: 60px;
 }
 
 .image-80 {
