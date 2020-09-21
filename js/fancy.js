@@ -33,7 +33,8 @@ window.onload = function(){
   // The second paramter is the speed between each letter is typed.   
   autoType(".type-js",200);
 
-  //CUSTOM CURSOR JS
+
+// Custom Cursor
   var cursor = {
     delay: 8,
     _x: 0,
@@ -147,12 +148,4 @@ window.onload = function(){
 
 cursor.init();
 };
-
-
-
-
-
-
-
-
 
