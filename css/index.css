@@ -29,7 +29,7 @@
   
   .navigation-item {
     margin-left: 32px;
-    padding-top: 8px;
+    padding: 4px 0px;
     background-color: transparent;
     opacity: 1;
     font-family: synthese, sans-serif;
