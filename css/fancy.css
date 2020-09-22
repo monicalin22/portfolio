@@ -104,3 +104,8 @@ width: 40px;
 height: 40px;
 background-color: #a6b1e179;
 }
+
+.cursor-dot,
+.cursor-dot-outline {
+  z-index:999999;
+}
