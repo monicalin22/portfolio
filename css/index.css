@@ -237,7 +237,10 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: 3000px;
     height: 540px;
+    max-width: 100%;
+    min-width: 100%;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -249,9 +252,6 @@
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    min-width: 100%;
-    max-width: 100%;
-    width: 1300px;
     justify-content: center;
     border-radius: 20px;
     background-color: #f6f8f9;
@@ -326,12 +326,14 @@
   }
   
   .pilota {
-    max-width: 100%;
-    margin-left: 0vw;
+    max-width: 106%;
+    margin-top: 2vw;
+    margin-left: -1vw;
   }
   
   .cress {
-    max-width: 110%;
+    max-width: 114%;
+    margin-top: 2vw;
     margin-left: -5vw;
   }
   
@@ -342,6 +344,7 @@
   
   .gazer {
     max-width: 108%;
+    margin-top: 2vh;
     margin-left: -3vw;
   }
   
@@ -517,23 +520,29 @@
       margin-left: 0vw;
     }
     .pilota {
-      max-width: 110%;
+      max-width: 114%;
+      margin-top: 1vw;
       margin-left: -5vw;
     }
     .cress {
-      max-width: 122%;
+      max-width: 124%;
+      margin-top: 3vw;
       margin-left: -10vw;
     }
     .ssol {
       max-width: 115%;
+      margin-bottom: 2vw;
       margin-left: -5vw;
     }
     .gazer {
-      margin-left: -6vw;
+      max-width: 111%;
+      margin-top: 1vw;
+      margin-left: -7.2vw;
     }
     .darkr {
-      max-width: 70%;
-      margin-left: 20px;
+      max-width: 64%;
+      margin-top: 1vw;
+      margin-left: 2vw;
     }
     .back2top {
       margin-top: 60px;
@@ -580,7 +589,7 @@
     }
     .navigation-items {
       margin-top: 10px;
-      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0);
     }
     .down {
       margin-bottom: 5px;
@@ -597,7 +606,9 @@
       font-size: 28px;
     }
     .project {
-      height: 560px;
+      height: auto;
+      max-height: 100%;
+      min-height: 100%;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -639,6 +650,9 @@
     .description {
       margin-left: 2vw;
     }
+    .description._568 {
+      margin-top: 0%;
+    }
     .h3 {
       font-size: 32px;
     }
@@ -656,7 +670,7 @@
     .pilota {
       max-width: 150%;
       margin-top: 10px;
-      margin-bottom: -20px;
+      margin-bottom: -10px;
       margin-left: -6vw;
     }
     .cress {
@@ -748,7 +762,7 @@
       line-height: 28px;
     }
     .project {
-      height: 540px;
+      height: auto;
     }
     .description {
       margin-top: 10%;
@@ -761,8 +775,8 @@
     }
     .details {
       width: auto;
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 18px;
+      line-height: 26px;
     }
     .image-78 {
       max-width: 100%;
@@ -857,7 +871,13 @@
       font-size: 24px;
     }
     .project {
-      height: 440px;
+      height: auto;
+    }
+    .projectpromo {
+      height: auto;
+    }
+    .column-32 {
+      height: auto;
     }
     .description._568 {
       margin-top: 0%;
@@ -894,5 +914,3 @@
     .column-33 {
       margin-top: 40px;
     }
-  }
-  
