@@ -822,6 +822,11 @@
   }
   
   @media screen and (max-width: 479px) {
+    .columns-15 {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
     .nav {
       margin-right: 20px;
       margin-left: 20px;

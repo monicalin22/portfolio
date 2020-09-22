@@ -580,6 +580,12 @@
       padding-right: 20px;
       padding-left: 20px;
     }
+
+    .columns-15 {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
     .nav {
       margin-right: 20px;
       margin-left: 20px;

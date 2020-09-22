@@ -109,3 +109,35 @@ background-color: #a6b1e179;
 .cursor-dot-outline {
   z-index:999999;
 }
+
+/* Blue gradient for Google Collections page */
+.bluegradient {
+	background: linear-gradient(-45deg, #D9E7FD, #EAF0FD, #F2F3F4, #ffffff);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
