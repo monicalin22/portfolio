@@ -332,8 +332,7 @@
 }
 
 .nav-menu {
-  margin-top: 40px;
-  margin-bottom: 10px;
+  margin: 40px 60px 10px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -496,8 +495,8 @@
 }
 
 .image-82 {
-  max-width: 120%;
-  margin-left: 12px;
+  max-width: 100%;
+  margin-left: -4px;
 }
 
 .div-block-105 {
@@ -595,7 +594,7 @@
 
 .navigation-item {
   margin-left: 32px;
-  padding: 4px 0px 5px;
+  padding: 4px 0px 0px;
   background-color: transparent;
   opacity: 1;
   font-family: synthese, sans-serif;
@@ -801,7 +800,9 @@
     margin-left: 60px;
   }
   .nav-menu {
+    margin-right: 60px;
     margin-bottom: 10px;
+    margin-left: 60px;
     background-color: #fff;
   }
   .nav-link.footernav {
@@ -820,7 +821,7 @@
     margin-left: 4px;
   }
   .navigation {
-    padding: 25px 0px;
+    padding: 25px 30px;
   }
   .navigation-items {
     margin-top: 10px;
@@ -965,7 +966,12 @@
     margin-top: 40px;
   }
   .nav-menu {
+    margin-right: 60px;
     margin-bottom: 10px;
+    margin-left: 60px;
+  }
+  .nav-link-3 {
+    font-size: 16px;
   }
   .navigation {
     padding: 20px 0px;
@@ -1038,18 +1044,21 @@
     margin-left: 20px;
   }
   .nav-menu {
+    margin-right: 20px;
     margin-bottom: 0px;
+    margin-left: 20px;
   }
   .nav-link.footernav {
-    padding-right: 0px;
+    padding-right: 20px;
     padding-left: 0px;
   }
   .nav-link-3 {
-    padding-right: 0px;
+    padding-right: 20px;
     padding-left: 0px;
+    font-size: 14px;
   }
   .nav-link-3.w--current {
-    padding-right: 0px;
+    padding-right: 20px;
     padding-left: 0px;
   }
   .section-6 {
@@ -1082,6 +1091,10 @@
   }
   .column-33 {
     margin-top: 40px;
+  }
+  .image-83 {
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 }
 
