@@ -112,7 +112,7 @@
   }
   
   .columns-8 {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 0px;
   }
   
@@ -207,6 +207,10 @@
     font-weight: 700;
   }
   
+  .h2gazer.proto {
+    margin-bottom: 40px;
+  }
+  
   .image-61 {
     border-radius: 8px;
     box-shadow: -1px 1px 15px 0 rgba(0, 0, 0, 0.2);
@@ -227,6 +231,10 @@
   
   .gazerp.a {
     margin-top: 0px;
+  }
+  
+  .gazerp.beg {
+    margin-top: 40px;
   }
   
   .list {
@@ -267,6 +275,7 @@
   }
   
   .columns-15 {
+    margin-top: 40px;
     margin-bottom: 80px;
   }
   
@@ -318,11 +327,11 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -393,12 +402,20 @@
   }
   
   .ia {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
   }
   
   .image-59 {
     max-width: 90%;
-    margin-top: -15px;
+    margin-top: 0px;
     margin-bottom: 80px;
   }
   
@@ -938,5 +955,7 @@
       margin-top: 40px;
     }
   }
+  
+  
   
   
