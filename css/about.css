@@ -65,7 +65,7 @@
   
   .navigation-item {
     margin-left: 32px;
-    padding: 4px 0px;
+    padding: 4px 0px 5px;
     background-color: transparent;
     opacity: 1;
     font-family: synthese, sans-serif;
