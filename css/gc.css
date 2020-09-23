@@ -56,6 +56,7 @@
 
 .heading-2 {
   width: 68%;
+  margin-bottom: 30px;
   font-family: utopia-std, sans-serif;
   color: #000;
   font-size: 32px;
@@ -92,12 +93,12 @@
 }
 
 .paragraph-2.second {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .paragraph-2.add {
   width: auto;
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 40px;
 }
 
@@ -109,17 +110,17 @@
 
 .paragraph-2.sol {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .paragraph-2.challenges {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .paragraph-2.conclusion {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .div-block {
@@ -194,7 +195,7 @@
 
 .problem {
   margin-top: 0px;
-  margin-bottom: 80px;
+  margin-bottom: 140px;
   font-family: utopia-std, sans-serif;
   color: #000;
   font-size: 46px;
@@ -221,10 +222,11 @@
 
 .heading-3 {
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-family: synthese, sans-serif;
   color: #000;
   font-size: 24px;
+  line-height: 40px;
   font-style: normal;
   font-weight: 700;
 }
@@ -751,12 +753,14 @@
 @media screen and (max-width: 991px) {
   .heading-2 {
     width: 80%;
+    line-height: 40px;
   }
   .heading-2.last {
     width: 100%;
   }
   .paragraph-2.beginning {
     width: 80%;
+    margin-top: 30px;
   }
   .section {
     margin-right: 60px;
@@ -788,6 +792,12 @@
   .section-4 {
     margin-right: 60px;
     padding-left: 60px;
+  }
+  .columns-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
   .columns-3 {
     display: -webkit-box;
@@ -821,7 +831,7 @@
     margin-left: 4px;
   }
   .navigation {
-    padding: 25px 30px;
+    padding: 20px 0px 25px;
   }
   .navigation-items {
     margin-top: 10px;
@@ -913,10 +923,13 @@
     font-size: 14px;
   }
   .subtext {
+    margin-top: 10px;
     margin-bottom: 40px;
   }
   .heading-2 {
     width: 100%;
+    margin-bottom: 20px;
+    font-size: 30px;
   }
   .paragraph-2.description {
     font-size: 14px;
@@ -943,12 +956,22 @@
     font-size: 14px;
     line-height: 28px;
   }
+  .div-block {
+    margin-top: 60px;
+  }
   .screenshot2 {
     margin-top: 40px;
   }
   .problem {
     font-size: 40px;
     line-height: 60px;
+  }
+  .heading-3 {
+    font-size: 22px;
+    line-height: 38px;
+  }
+  .heading-3._3rd {
+    font-size: 22px;
   }
   .image-71 {
     margin-top: 20px;
@@ -969,6 +992,9 @@
     margin-right: 60px;
     margin-bottom: 10px;
     margin-left: 60px;
+  }
+  .nav-link.footernav {
+    font-size: 16px;
   }
   .nav-link-3 {
     font-size: 16px;
@@ -1049,17 +1075,21 @@
     margin-left: 20px;
   }
   .nav-link.footernav {
-    padding-right: 20px;
-    padding-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14px;
   }
   .nav-link-3 {
-    padding-right: 20px;
-    padding-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-size: 14px;
   }
   .nav-link-3.w--current {
-    padding-right: 20px;
-    padding-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .nav-link-3.dr {
+    padding-right: 0px;
   }
   .section-6 {
     margin-right: 20px;
@@ -1086,6 +1116,10 @@
     flex: 0 0 auto;
   }
   .nav {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .columns-15 {
     margin-right: 20px;
     margin-left: 20px;
   }
