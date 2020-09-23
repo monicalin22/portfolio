@@ -234,7 +234,8 @@
   }
   
   .gazerp.beg {
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
   
   .list {
@@ -344,7 +345,7 @@
   
   .image-58 {
     display: block;
-    width: 95%;
+    width: 100%;
     margin: 0px;
     text-align: center;
   }
@@ -955,7 +956,5 @@
       margin-top: 40px;
     }
   }
-  
-  
   
   
