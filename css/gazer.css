@@ -446,7 +446,7 @@
 }
 
 .container-29 {
-  max-width: 60%;
+  max-width: 50%;
 }
 
 .challenges {
@@ -632,6 +632,9 @@
 }
 
 @media screen and (max-width: 991px) {
+  .container-29 {
+    max-width: 60%;
+  }
   .navigation {
     padding: 25px 0px;
   }
@@ -749,6 +752,9 @@
 @media screen and (max-width: 767px) {
   .navigation {
     padding: 20px 0px;
+  }
+  .container-29 {
+    max-width: 100%;
   }
   .navigation-items {
     -webkit-box-flex: 1;
