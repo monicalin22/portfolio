@@ -454,7 +454,7 @@
   }
   
   .column-9 {
-    padding-right: 0px;
+    padding-right: 20px;
     padding-left: 0px;
   }
   
@@ -580,6 +580,10 @@
     .ba {
       width: 16px;
       margin-left: 12px;
+    }
+    .column-9 {
+      padding-right: 20px;
+      padding-left: 0px;
     }
   }
   
