@@ -213,6 +213,28 @@
   margin-bottom: -30px;
 }
 
+/* Scroll for Pilota page. */
+.container {
+max-width: 880px;
+margin: 0 auto;
+margin-bottom: -30px;
+}
+
+.mockup {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+} 
+
+.artwork {
+  position: absolute;
+  width: 76%;
+  height: 75%;
+  top: 9%;
+  left: 11.75%;
+  overflow: scroll;
+}
+
 .image-88 {
   display: block;
   width: 40%;
