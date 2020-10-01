@@ -304,7 +304,8 @@
   
   .details {
     width: 380px;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-family: synthese, sans-serif;
     color: #000;
     font-size: 20px;
@@ -554,16 +555,28 @@
   
   .detailtag.ui {
     width: 37%;
-    margin-right: 36px;
+    margin-right: 28px;
   }
   
   .detailtag.ux {
     width: 42%;
-    margin-right: 36px;
+    margin-right: 28px;
   }
   
   .detailtag.animations {
+    width: 32%;
+  }
+
+  .detailtag.branding {
     width: 28%;
+  }
+
+  .detailtag.dev {
+    width: 36%;
+  }
+
+  .detailtag.research {
+    width: 30%;
   }
   
   @media screen and (min-width: 1280px) {
@@ -615,21 +628,6 @@
       -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
       justify-content: flex-start;
-    }
-    .tag {
-      color: #fff;
-      font-size: 15px;
-      font-weight: 300;
-    }
-    .detailtag {
-      width: 128px;
-      margin-right: 40px;
-    }
-    .detailtag.case {
-      width: 80px;
-    }
-    .detailtag.ui {
-      width: 140px;
     }
   }
   
