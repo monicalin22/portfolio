@@ -508,6 +508,63 @@
     margin-bottom: 60px;
     text-decoration: none;
   }
+
+  .tags {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  
+  .tag {
+    font-family: synthese, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .detailtag {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 34%;
+    height: 40px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    border-radius: 6px;
+    background-color: rgba(166, 177, 225, 0.6);
+  }
+  
+  .detailtag.ui {
+    width: 37%;
+    margin-right: 36px;
+  }
+  
+  .detailtag.ux {
+    width: 42%;
+    margin-right: 36px;
+  }
+  
+  .detailtag.animations {
+    width: 28%;
+  }
   
   @media screen and (min-width: 1280px) {
     .down {
@@ -551,6 +608,28 @@
     .projectlink {
       margin-bottom: 60px;
       text-decoration: none;
+    }
+
+    .tags {
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+    }
+    .tag {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 300;
+    }
+    .detailtag {
+      width: 128px;
+      margin-right: 40px;
+    }
+    .detailtag.case {
+      width: 80px;
+    }
+    .detailtag.ui {
+      width: 140px;
     }
   }
   
@@ -730,6 +809,10 @@
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
+    }
+
+    .tags {
+      display: none;
     }
   }
   
