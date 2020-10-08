@@ -18,6 +18,28 @@
   color: rgba(62, 69, 83, 0);
 }
 
+.wrapper {
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.sliding-background {
+  background: url("../pilota-assets/Slide.png") repeat-x;
+  height: 800px;
+  width: 3614px;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+      transform: translate3d(0, 0, 0);
+  }
+  100% {
+      transform: translate3d(-1692px, 0, 0);
+  }
+}
+
 .navigation-items {
   display: -webkit-box;
   display: -webkit-flex;
@@ -379,7 +401,6 @@ margin-bottom: -30px;
 .div-block-120 {
   margin-top: 60px;
   margin-bottom: 80px;
-  text-align: center;
 }
 
 .ca {
