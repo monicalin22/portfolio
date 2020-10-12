@@ -431,7 +431,7 @@
     margin-right: 60px;
     margin-left: 60px;
   }
-  
+
   @media screen and (min-width: 1280px) {
     .back2top {
       margin-top: 60px;
@@ -442,11 +442,7 @@
       border-width: 0.75px;
       border-color: #ddd;
       border-radius: 8px;
-      width: 100%;
-    }
-
-    .column-36 {
-      padding-right: 25px;
+      width: auto;
     }
     
     .image-anim:hover {
