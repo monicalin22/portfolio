@@ -150,12 +150,12 @@
   
   .me {
     margin-right: 0px;
-    border-radius: 20px;
+    border-radius: 12px;
   }
   
   .me:hover {
     border-radius: 20px;
-    box-shadow: 2px 1px 14px 0 rgba(0, 0, 0, 0.18);
+    box-shadow: 2px 1px 10px 0 rgba(0, 0, 0, 0.10);
     opacity: 1;
     -webkit-perspective-origin: 50% 50%;
     perspective-origin: 50% 50%;
