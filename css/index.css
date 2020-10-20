@@ -140,7 +140,7 @@
 .main {
   position: absolute;
   left: 0%;
-  top: 24vh;
+  top: 22vh;
   right: 0%;
   bottom: auto;
   overflow: auto;
@@ -642,6 +642,9 @@
     max-width: 106%;
     margin-left: -2vw;
   }
+  .main {
+    top: 22vh;
+  }
   .nav {
     margin-right: 100px;
     margin-left:  100px;
@@ -663,7 +666,7 @@
   }
   .gazer {
     max-width: 116%;
-    margin-left: -8vw;
+    margin-left: -7vw;
   }
   .slack {
     max-width: 96%;
