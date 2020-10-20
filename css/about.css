@@ -566,6 +566,42 @@
     width: 16px;
     margin-left: 12px;
   }
+
+  @media screen and (min-width: 1920px) {
+    .nav {
+      margin-right: 260px;
+      margin-left: 260px;
+    }
+    .about {
+      margin-right: 260px;
+      margin-left: 260px;
+    }
+    .mydescription {
+      margin-right: 260px;
+      margin-left: 260px;
+    }
+    .skills {
+      margin-right: 260px;
+      margin-left: 260px;
+    }
+    ._120 {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-top: 6vh;
+    }
+    .loves {
+      padding-right: 260px;
+      padding-left: 260px;
+    }
+    .other-work {
+      margin-right: 260px;
+      margin-left: 260px;
+    }
+    .back2top {
+      margin-right: 260px;
+      margin-left: 260px;
+    }
+  }
   
   @media screen and (min-width: 1280px) {
     .back2top {
