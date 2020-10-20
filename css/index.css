@@ -602,10 +602,10 @@
     margin-left: -7.2vw;
   }
   .slack {
-    max-width: 106%;
+    max-width: 96%;
     margin-top: 0vw;
     margin-bottom: 2vh;
-    margin-left: -6vw;
+    margin-left: -4.8vw;
   }
   .back2top {
     margin-top: 60px;
@@ -644,7 +644,7 @@
   }
   .nav {
     margin-right: 140px;
-    margin-left: 260px;
+    margin-left:  140px;
   }
   .intro {
     margin-right: 140px;
