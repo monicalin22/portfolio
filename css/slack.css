@@ -773,6 +773,11 @@
 .image-94 {
   margin-top: 60px;
   margin-bottom: 60px;
+  max-width: 100%;
+}
+
+.div-block-115 {
+  text-align: center;
 }
 
 .section-2 {
