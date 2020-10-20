@@ -429,28 +429,28 @@
 
   @media screen and (min-width: 1440px) {
     .nav {
-      margin-left: 140px;
-      margin-right: 140px;
+      margin-left: 100px;
+      margin-right: 100px;
     }
     .about {
-        margin-left: 140px;
-        margin-right: 140px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     .marketing {
-      margin-left: 140px;
-      margin-right: 140px;
+      margin-left: 100px;
+      margin-right: 100px;
     }
     .art {
-      margin-left: 140px;
-      margin-right: 140px;
+      margin-left: 100px;
+      margin-right: 100px;
     }
     .writing {
-      margin-left: 140px;
-      margin-right: 140px;
+      margin-left: 100px;
+      margin-right: 100px;
     }
     .back2top {
-      margin-left: 140px;
-      margin-right: 140px;
+      margin-left: 100px;
+      margin-right: 100px;
     }
     }
 

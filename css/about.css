@@ -569,20 +569,20 @@
 
   @media screen and (min-width: 1440px) {
     .nav {
-      margin-right: 140px;
-      margin-left: 140px;
+      margin-right: 100px;
+      margin-left: 100px;
     }
     .about {
-      margin-right: 140px;
-      margin-left: 140px;
+      margin-right: 100px;
+      margin-left: 100px;
     }
     .mydescription {
-      margin-right: 140px;
-      margin-left: 140px;
+      margin-right: 100px;
+      margin-left: 100px;
     }
     .skills {
-      margin-right: 140px;
-      margin-left: 140px;
+      margin-right: 100px;
+      margin-left: 100px;
     }
     ._120 {
       margin-left: 0px;
@@ -590,16 +590,16 @@
       padding-top: 3vh;
     }
     .loves {
-      padding-right: 140px;
-      padding-left: 140px;
+      padding-right: 100px;
+      padding-left: 100px;
     }
     .other-work {
-      margin-right: 140px;
-      margin-left: 140px;
+      margin-right: 100px;
+      margin-left: 100px;
     }
     .back2top {
-      margin-right: 140px;
-      margin-left: 140px;
+      margin-right: 100px;
+      margin-left: 100px;
     }
   }
 
