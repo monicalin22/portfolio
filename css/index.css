@@ -668,16 +668,16 @@
 
 @media screen and (min-width: 1920px) {
   .nav {
-    margin-right: 140px;
-    margin-left: 140px;
+    margin-right: 260px;
+    margin-left: 260px;
   }
   .intro {
-    margin-right: 140px;
-    margin-left: 140px;
+    margin-right: 260px;
+    margin-left: 260px;
   }
   .featured {
-    margin-right: 140px;
-    margin-left: 140px;
+    margin-right: 260px;
+    margin-left: 260px;
   }
   .project {
     width: auto;
@@ -687,7 +687,7 @@
     margin-left: 0vw;
   }
   .details {
-    width: 70.000017%;
+    width: 70%;
   }
   .image-78 {
     max-width: 100%;
@@ -695,7 +695,7 @@
   }
   .pilota {
     max-width: 96%;
-    margin-left: 0vw;
+    margin-left: 1vw;
   }
   .cress {
     max-width: 110%;
@@ -710,19 +710,22 @@
     margin-left: -4vw;
   }
   .slack {
-    max-width: 90%;
+    max-width: 80%;
     margin-bottom: 1vh;
-    margin-left: -2vw;
+    margin-left: 1vw;
   }
   .back2top {
-    margin-right: 140px;
-    margin-left: 140px;
+    margin-right: 260px;
+    margin-left: 260px;
   }
   .detailtag {
     width: 130px;
   }
   .detailtag.ux {
-    width: 22%;
+    width: 20%;
+  }
+  .detailtag.ui {
+    width: 18%;
   }
   .detailtag.animations {
     width: 140px;
@@ -733,6 +736,10 @@
   .detailtag.research {
     width: 120px;
   }
+  .detailtag.dev {
+    width: 144px;
+  }
+
 }
 
 @media screen and (max-width: 991px) {
