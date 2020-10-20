@@ -426,6 +426,33 @@
     }
 
   }
+
+  @media screen and (min-width: 1920px) {
+  .nav {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+  .about {
+      margin-left: 260px;
+      margin-right: 260px;
+  }
+  .marketing {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+  .art {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+  .writing {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+  .back2top {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+  }
   
   @media screen and (max-width: 991px) {
     .navigation-items {
