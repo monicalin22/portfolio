@@ -350,9 +350,9 @@
     margin-left: -3vw;
   }
   
-  .darkr {
-    max-width: 66%;
-    margin-left: 6vw;
+  .slack {
+    max-width: 108%;
+    margin-left: -5vw;
   }
   
   .back2top {
@@ -610,10 +610,10 @@
       margin-top: 1vw;
       margin-left: -7.2vw;
     }
-    .darkr {
-      max-width: 64%;
-      margin-top: 1vw;
-      margin-left: 2vw;
+    .slack {
+      max-width: 106%;
+      margin-top: 0vw;
+      margin-left: -6vw;
     }
     .back2top {
       margin-top: 60px;
@@ -772,11 +772,11 @@
       max-width: 170%;
       margin-left: -12.5vw;
     }
-    .darkr {
-      max-width: 90%;
+    .slack {
+      max-width: 150%;
       margin-top: 0px;
       margin-bottom: 0px;
-      margin-left: 2vw;
+      margin-left: -11vw;
     }
     .back2top {
       margin-top: -20px;
@@ -891,9 +891,9 @@
       max-width: 100%;
       margin-left: 0vw;
     }
-    .darkr {
-      max-width: 50%;
-      margin-left: 18vw;
+    .slack {
+      max-width: 100%;
+      margin-left: 0vw;
     }
     .back2top {
       margin-top: -30px;
@@ -991,11 +991,11 @@
     .ssol {
       margin-top: 0vh;
     }
-    .darkr {
-      max-width: 60%;
-      margin-top: 5vh;
-      margin-bottom: -20px;
-      margin-left: 15vw;
+    .slack {
+      max-width: 100%;
+      margin-top: 0vh;
+      margin-bottom: 0px;
+      margin-left: 0vw;
     }
     .back2top {
       margin-top: 60px;
