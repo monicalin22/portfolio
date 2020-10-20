@@ -427,6 +427,33 @@
 
   }
 
+  @media screen and (min-width: 1440px) {
+    .nav {
+      margin-left: 140px;
+      margin-right: 140px;
+    }
+    .about {
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+    .marketing {
+      margin-left: 140px;
+      margin-right: 140px;
+    }
+    .art {
+      margin-left: 140px;
+      margin-right: 140px;
+    }
+    .writing {
+      margin-left: 140px;
+      margin-right: 140px;
+    }
+    .back2top {
+      margin-left: 140px;
+      margin-right: 140px;
+    }
+    }
+
   @media screen and (min-width: 1920px) {
   .nav {
     margin-left: 260px;

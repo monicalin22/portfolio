@@ -642,6 +642,18 @@
     max-width: 106%;
     margin-left: -2vw;
   }
+  .nav {
+    margin-right: 140px;
+    margin-left: 260px;
+  }
+  .intro {
+    margin-right: 140px;
+    margin-left: 140px;
+  }
+  .featured {
+    margin-right: 140px;
+    margin-left: 140px;
+  }
   .cress {
     max-width: 118%;
     margin-left: -8vw;

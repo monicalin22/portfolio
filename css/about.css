@@ -567,6 +567,42 @@
     margin-left: 12px;
   }
 
+  @media screen and (min-width: 1440px) {
+    .nav {
+      margin-right: 140px;
+      margin-left: 140px;
+    }
+    .about {
+      margin-right: 140px;
+      margin-left: 140px;
+    }
+    .mydescription {
+      margin-right: 140px;
+      margin-left: 140px;
+    }
+    .skills {
+      margin-right: 140px;
+      margin-left: 140px;
+    }
+    ._120 {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-top: 3vh;
+    }
+    .loves {
+      padding-right: 140px;
+      padding-left: 140px;
+    }
+    .other-work {
+      margin-right: 140px;
+      margin-left: 140px;
+    }
+    .back2top {
+      margin-right: 140px;
+      margin-left: 140px;
+    }
+  }
+
   @media screen and (min-width: 1920px) {
     .nav {
       margin-right: 260px;
