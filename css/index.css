@@ -356,7 +356,6 @@
 .slack {
   max-width: 108%;
   margin-left: -5vw;
-  margin-bottom: 2vh;
 }
 
 .back2top {
@@ -605,6 +604,7 @@
   .slack {
     max-width: 106%;
     margin-top: 0vw;
+    margin-bottom: 2vh;
     margin-left: -6vw;
   }
   .back2top {
@@ -725,7 +725,13 @@
     width: 22%;
   }
   .detailtag.animations {
-    width: 18%;
+    width: 140px;
+  }
+  .detailtag.branding {
+    width: 120px;
+  }
+  .detailtag.research {
+    width: 120px;
   }
 }
 
