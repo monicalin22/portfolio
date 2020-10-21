@@ -990,6 +990,21 @@
   margin-top: 80px;
 }
 
+.promo {
+  margin-top: 110px;
+  margin-bottom: 0px;
+  background-color: #4a154b;
+}
+
+.div-block-116 {
+  text-align: center;
+}
+
+.image-95 {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 @media screen and (min-width: 1920px) {
   .nav {
     margin-right: 260px;
@@ -1046,16 +1061,58 @@
     margin-right: 60px;
     margin-left: 60px;
   }
+  .div-block.s {
+    width: 80%;
+  }
   .heading-2 {
     width: 80%;
+    margin-bottom: 30px;
     line-height: 40px;
+  }
+  .heading-2.wide {
+    margin-bottom: 30px;
   }
   .paragraph-2.beginning {
     width: 80%;
-    margin-top: 30px;
+    margin-top: 0px;
+  }
+  .paragraph-2.beginning.yes {
+    width: 80%;
+  }
+  .heading-3.sp {
+    width: 80%;
+  }
+  .heading-3.p {
+    width: 80%;
+  }
+  .heading-3.fp {
+    width: 80%;
+  }
+  .div-block-2 {
+    width: 80%;
+  }
+  .slackdesktop {
+    border-radius: 4px;
   }
   .mobile {
     margin-right: 20px;
+    border-radius: 4px;
+  }
+  .iteration {
+    border-radius: 4px;
+  }
+  .research {
+    border-radius: 4px;
+  }
+  .res {
+    border-radius: 4px;
+  }
+  .columns-10 {
+    max-width: 80%;
+  }
+  .column-11 {
+    padding-right: 0px;
+    padding-bottom: 20px;
   }
   .nav-menu {
     margin-right: 60px;
@@ -1081,6 +1138,16 @@
   }
   .bot {
     font-size: 18px;
+  }
+  .container-9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
@@ -1115,6 +1182,8 @@
   }
   .div-block {
     margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
   }
   .heading-2 {
     width: 100%;
@@ -1124,9 +1193,15 @@
   .paragraph {
     font-size: 14px;
   }
+  .paragraph-2 {
+    font-size: 14px;
+  }
   .paragraph-2.beginning {
     width: 100%;
     font-size: 14px;
+  }
+  .paragraph-2.beginning.yes {
+    width: 100%;
   }
   .col {
     padding-right: 0px;
@@ -1136,7 +1211,21 @@
     font-size: 22px;
     line-height: 38px;
   }
+  .heading-3.sp {
+    width: 100%;
+  }
+  .heading-3.p {
+    width: 100%;
+  }
+  .heading-3.fp {
+    width: 100%;
+  }
+  .div-block-2 {
+    width: 100%;
+  }
   .problem {
+    margin-right: 60px;
+    margin-left: 60px;
     font-size: 40px;
     line-height: 60px;
   }
@@ -1144,6 +1233,21 @@
     display: block;
     max-width: 20%;
     margin-right: 10px;
+  }
+  .caption {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .caption.center {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .iteration {
+    margin-bottom: 40px;
+  }
+  .div-block-13 {
+    margin-right: 60px;
+    margin-left: 60px;
   }
   .container-2 {
     -webkit-box-orient: horizontal;
@@ -1159,6 +1263,31 @@
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
+  }
+  .container-3 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .columns-9 {
+    margin-right: 0px;
+    padding-right: 10px;
+  }
+  .columns-10 {
+    max-width: 100%;
+  }
+  .column-8 {
+    padding-right: 0px;
+  }
+  .column-9 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .column-11 {
+    padding-left: 0px;
+  }
+  .section-2 {
+    margin-right: 60px;
+    margin-left: 60px;
   }
   .nav-menu {
     margin-right: 60px;
@@ -1182,6 +1311,34 @@
   }
   .botd {
     margin-bottom: -40px;
+  }
+  .container-6 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .column-34 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .container-7 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .container-8 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .div-block-117 {
+    margin-right: 40px;
+    margin-left: 50px;
+  }
+  .div-block-118 {
+    margin-right: 40px;
+    margin-left: 50px;
+  }
+  .heading-2.wide {
+    width: 100%;
+    margin-left: 60px;
   }
 }
 
@@ -1214,6 +1371,52 @@
     margin-right: 20px;
     margin-left: 20px;
   }
+  .div-block {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .problem {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .section {
+    display: none;
+  }
+  .div-block-11 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .div-block-13 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .container-3 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .columns-9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+  .section-2 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
   .nav-menu {
     margin-right: 20px;
     margin-bottom: 0px;
@@ -1239,6 +1442,22 @@
   }
   .column-33 {
     margin-top: 40px;
+  }
+  .container-6 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .container-7 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .container-8 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .div-block-118 {
+    margin-right: 40px;
+    margin-left: 40px;
   }
 }
 
