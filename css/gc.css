@@ -769,6 +769,11 @@
     width: 80%;
     line-height: 40px;
   }
+  .screenshot2 {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
   .heading-2.last {
     width: 100%;
   }
