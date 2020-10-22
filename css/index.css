@@ -320,6 +320,7 @@
 .image-78 {
   width: auto;
   max-width: 94%;
+  max-height: 94%;
   margin-left: 3vw;
 }
 
@@ -332,6 +333,7 @@
 
 .pilota {
   max-width: 106%;
+  max-height: 106%;
   margin-top: 2vw;
   margin-left: 0vw;
 }
@@ -579,10 +581,12 @@
   }
   .image-78 {
     max-width: 100%;
+    max-height: 100%;
     margin-left: 1vw;
   }
   .pilota {
     max-width: 110%;
+    max-height: 110%;
     margin-top: 1vw;
     margin-left: -4vw;
   }
@@ -640,6 +644,7 @@
 @media screen and (min-width: 1440px) {
   .pilota {
     max-width: 106%;
+    max-height: 106%;
     margin-left: -2vw;
   }
   .main {
@@ -706,10 +711,12 @@
   }
   .image-78 {
     max-width: 100%;
+    max-height: 100%;
     margin-left: 0vw;
   }
   .pilota {
     max-width: 96%;
+    max-height: 96%;
     margin-left: 1vw;
   }
   .cress {
@@ -873,6 +880,7 @@
   }
   .pilota {
     max-width: 150%;
+    max-height: 150%;
     margin-top: 10px;
     margin-bottom: -10px;
     margin-left: -6vw;
@@ -987,10 +995,12 @@
   }
   .image-78 {
     max-width: 100%;
+    max-height: 100%;
     margin-left: 1vw;
   }
   .pilota {
     max-width: 100%;
+    max-height: 100%;
     margin-bottom: 0px;
     margin-left: 4vw;
   }
