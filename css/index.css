@@ -324,13 +324,6 @@
   margin-left: 3vw;
 }
 
-.div-block-112 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .pilota {
   max-width: 106%;
   max-height: 106%;
@@ -358,6 +351,7 @@
 .slack {
   max-width: 108%;
   margin-left: -4vw;
+  margin-bottom: 1.5vh;
 }
 
 .back2top {
