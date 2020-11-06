@@ -112,10 +112,10 @@ background-color: #a6b1e179;
 
 /* Blue gradient for Google Collections page */
 .bluegradient {
-	background: linear-gradient(-45deg, #C2E9FB, #B6DCFC, #ACD0FC, #A1C4FD);
+	background: linear-gradient(-45deg, #246ADF, #2B87FC, #5099FD, #9AC2FF);
 	background-size: 400% 400%;
-	-webkit-animation: gradient 15s ease infinite;
-	        animation: gradient 15s ease infinite;
+	-webkit-animation: gradient 8s ease infinite;
+	        animation: gradient 8s ease infinite;
 }
 
 @-webkit-keyframes gradient {
