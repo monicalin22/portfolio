@@ -6,6 +6,10 @@
   font-weight: 900;
 }
 
+.space {
+  margin-bottom: 60px;
+}
+
 .paragraph {
   margin-left: 0px;
   font-family: synthese, sans-serif;
@@ -931,6 +935,9 @@
   .heading {
     margin-bottom: 0px;
     font-size: 30px;
+  }
+  .space {
+    margin-bottom: 40px;
   }
   .paragraph {
     font-size: 14px;
